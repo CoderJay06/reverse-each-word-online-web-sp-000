@@ -4,7 +4,8 @@ def reverse_each_word(sentence)
     reverse_array << word.reverse 
   end 
   reverse_array.join(" ") 
-  reverse_each_word(sentence).collect {|word| word.reverse}
 end 
 
+def reverse_each_word(sentence)
   
+end 
